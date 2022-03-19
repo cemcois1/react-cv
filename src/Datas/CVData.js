@@ -2,7 +2,6 @@ export const CVData = {
     personalData: {
         name: 'Cemal Can Yıldırım',
         title: 'Mid Game Developer',
-        image: 'https://bulma.io/images/placeholders/128x128.png',
         contacts: [
             { type: 'email', value: 'cemalcan_yildirim10@hotmail.com' },
             { type: 'location', value: 'Turkey' },
