@@ -32,23 +32,20 @@ export const CVData = {
         {
             type: 'experiences-list',
             title: 'Experiences',
-            description: 'Optional',
             icon: 'archive',
             items: [
                 {
                     title: 'Intern Game Developer',
                     company: 'Trakya TeknoGamehub',
                     companyWebSite: 'https://www.linkedin.com/company/hobi-games/',
-                    companyMeta: '',
-                    datesBetween: '2017.10 - Present',
+                    datesBetween: '2021.10 - Present',
                     descriptionTags: ['Unity', 'C#']
                 },
                 {
                     title: 'Junior Game Developer',
                     company: 'Hobi Games',
                     companyWebSite: 'https://www.linkedin.com/company/hobi-games/',
-                    companyMeta: '',
-                    datesBetween: '2017.10 - Present',
+                    datesBetween: '2021.10 - 2022.01',
                     descriptionTags: ['Unity', 'C#']
                 },
             ]
@@ -56,14 +53,17 @@ export const CVData = {
         {
             type: 'projects-list',
             title: 'Projects',
-            description: 'Optional',
             icon: 'tasks',
             groups: [
                 {
-                    sectionHeader: 'Company Name',
-                    description: 'Optional',
+                    sectionHeader: 'Cosmos Instetute',
                     items: [
                         { title: 'Misshapen', projectUrl: 'https://play.google.com/store/apps/details?id=com.cosmos.Misshapen', description: 'My first game in the game industry' },
+                    ]
+                },
+                {
+                    sectionHeader: 'Mandalina Studio (Own Company)',
+                    items: [
                         { title: 'Age of Runner', projectUrl: 'https://play.google.com/store/apps/details?id=com.MandalinaStudio.AgeofRunner', description: 'My first self published game ' },
                         { title: 'Miner Rush 3D', projectUrl: 'https://play.google.com/store/apps/details?id=com.Mandalina.MinerRush3D' }
                     ]
@@ -73,7 +73,6 @@ export const CVData = {
         {
             type: 'common-list',
             title: 'Conferences & Certificates',
-            description: '',
             icon: 'comments',
             items: [
                 {
@@ -84,6 +83,10 @@ export const CVData = {
                 {
                     title: 'Kodluyoruz Mobile Game Bootcamp',
                     authorityWebSite: 'https://www.kodluyoruz.org/',
+                },
+                {
+                    title: 'CSCON 19',
+                    authorityWebSite: 'https://www.ieeehacettepe.com/cscon-19',
                 },
             ]
         },
